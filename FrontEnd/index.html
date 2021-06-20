@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTime ChatApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <div class="chat-container">
+        <div class="chat-box">
+            <!-- <div class="join"></div> -->
+            <!-- <div class="chat-item right">Hello</div>
+            <div class="chat-item left">Hey</div> -->
+        </div>
+        <div class="chat-input">
+            <div class="chat-type-box">
+                <input type="text" name="" id="chat">
+            </div>
+            <div class="chat-send">
+                <img src="./tick.png" alt="">
+            </div>
+        </div>
+    </div>
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const socket = io.connect("http://localhost:3000");  //connects to server and gives a socket id that goes to io.on('connection') func in app.js and displays the socket id    
+    </script>
+    <script src="./script.js"></script>
+    <script src="./socket.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+}
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.chat-container
+{
+    background: aliceblue;
+    height: 721px;
+    margin: auto;
+    background-image: url("./background1.png");
+    border-radius: 23px;
+}
+.chat-box
+{
+    height: 90%;
+    overflow: auto;
+}
+.chat-item
+{
+    border-radius: 15px;
+    padding: 7px;
+    margin: 8px;
+    max-width: min-content;
+    min-width: 25%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 13px;
+    font-family: cursive;
+}
+.right
+{
+    background: darkslateblue;
+    color: white;
+    justify-content: center;
+    float: right;
+    clear: both;
+}
+.left
+{
+    background: white;
+    justify-content: center;
+    clear: both;
+    background: bisque;
+}
+.chat-input
+{
+    background: white; 
+    height: 9%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 35px;
+    background: content-box;
+}
+.chat-type-box
+{
+    width: 90%;
+    height: 60%;
+}
+.chat-send
+{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.chat-send img
+{
+    height: 60px;
+}
+#chat
+{
+    width: 102%;
+    height: 110%;
+    border-radius: 23px;
+    outline: none;
+    border: none;
+    background: linear-gradient(
+    45deg, black, transparent);
+    color: ghostwhite;
+    padding: 24px;
+    font-size: 18px;
+}
+.join
+{
+    width: 90%;
+    background: dodgerblue;
+    height: 55px;
+    border-radius: 29px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 54px;
+    color: white;
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: monospace;
+}
+.leave
+{
+    width: 90%;
+    background: red;
+    height: 55px;
+    border-radius: 29px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 54px;
+    color: white;  
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: monospace;
+}
